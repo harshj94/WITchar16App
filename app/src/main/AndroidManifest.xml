@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.walchand.witchar16">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <permission
+        android:name="com.walchand.witchar16.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.walchand.witchar16.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.walchand.witchar16.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".ParseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.walchand.witchar16.MainActivity"
+            android:label="WITchar-2K16"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Special_req"
+            android:label="Special Requirements"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.all.Testing"
+            android:label="Cool_Coding"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.coding_sub_B"
+            android:label="Branch_wise"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.remaining_branches"
+            android:label="Branch_wise"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.Parallax_out_of_box"
+            android:label="Branch_wise"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="WITchar-16"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainScreen"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:name=".Register"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".LoggedIn"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".ForgetPassword"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".QuizEnded"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
+        <activity android:name=".Quiz"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
+
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="KHc2GpM7YjAEsjw9Wmumf5raV2KkUUW2EJxOtczl" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="sRMSaMWN0LhM2Z3rhhyJhw7rYAKFS9wXELkujsOZ" />
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver
+            android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.walchand.witchar16" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

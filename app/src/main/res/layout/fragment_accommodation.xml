@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/accom_img"
+                app:layout_collapseMode="parallax" />
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="24dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp">
+
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="For Boys:"
+                        android:paddingBottom="5dp"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="27dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="T-4, Blossome Residency, Ashok Chowk Solapur, Maharashtra-413006 " />
+
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="Faculty Coordinator"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="8dp"
+                        android:text="Mr. F. R. Sayyad" />
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="130dp"
+                        android:paddingTop="10dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:text="Student Coordinator"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="5dp"
+                        android:layout_marginTop="150dp"
+                        android:text="Akash Dabrase" />
+
+                    <RelativeLayout
+                        android:id="@+id/relay"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="right|bottom"
+                        android:paddingRight="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="right"
+                            android:src="@drawable/phone_icon" />
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/imageView"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="60dp"
+                            android:src="@drawable/phone_icon" />
+                    </RelativeLayout>
+
+                </FrameLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cv"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:paddingBottom="16dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp">
+
+
+                    <TextView
+                        android:id="@+id/text10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="For Girls:"
+                        android:textColor="#000000"
+                        android:textSize="17sp"
+                        android:layout_marginTop="3dp"/>
+
+                    <TextView
+                        android:id="@+id/text110"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="27dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="W.I.T.Girls Hostel, Near Ashok Chowk,Solapur,Maharashtra-413006 " />
+
+                    <TextView
+                        android:id="@+id/text210"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="Faculty Coordinator"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/text310"
+                        android:paddingLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:paddingTop="10dp"
+                        android:text="Mr. D. S. Patil " />
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="130dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <TextView
+                        android:id="@+id/text410"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Student Coordinator"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/text510"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="150dp"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="5dp"
+                        android:text="Sukanya Hazare" />
+
+                    <RelativeLayout
+                        android:id="@+id/relay10"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="right|bottom"
+                        android:paddingRight="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="right"
+                            android:src="@drawable/phone_icon" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/imageView"
+                            android:layout_gravity="right"
+                            android:src="@drawable/phone_icon" />
+                    </RelativeLayout>
+
+                </FrameLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+

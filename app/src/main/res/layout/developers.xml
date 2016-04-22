@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?><ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/devContent1116"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:fontFamily="TimesNewRoman"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="2dp"
+            android:text="@string/devContents"
+            android:textColor="#263238"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/dev1116"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="TimesNewRoman"
+            android:paddingTop="5dp"
+            android:text="Developers:"
+            android:textColor="#546E7A"
+            android:textSize="20dp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv1116"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/person_photo1116"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/abhi" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout21116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/person_photo1116">
+
+                    <TextView
+                        android:id="@+id/person_name1116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Abhijeet Kothari"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/person_age1116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Computer Science Engineering" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout1116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/person_photo1116"
+                    android:layout_alignLeft="@+id/frameLayout21116"
+                    android:layout_alignStart="@+id/frameLayout21116"
+                    android:padding="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout1116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView_1116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="20dp"
+                            android:clickable="true"
+                            android:src="@drawable/linked_in" />
+
+                        <ImageView
+                            android:id="@+id/imageView21116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_toRightOf="@+id/imageView_1116"
+                            android:clickable="true"
+                            android:src="@drawable/gmail143" />
+
+                        <ImageView
+                            android:id="@+id/imageView31116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_toRightOf="@+id/imageView21116"
+                            android:clickable="true"
+                            android:src="@drawable/fbart" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv11116"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/person_photo11116"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/rish" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout211116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/person_photo11116"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/person_name11116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rishabh Chandaliya"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/person_age11116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Computer Science Engineering" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout11116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/frameLayout211116"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/frameLayout211116"
+                    android:padding="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout11116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView11116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="20dp"
+                            android:clickable="true"
+                            android:src="@drawable/linked_in" />
+
+                        <ImageView
+                            android:id="@+id/imageView211116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_toRightOf="@+id/imageView11116"
+                            android:clickable="true"
+                            android:src="@drawable/gmail143" />
+
+                        <ImageView
+                            android:id="@+id/imageView311116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_toRightOf="@+id/imageView211116"
+                            android:clickable="true"
+                            android:src="@drawable/fbart" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv21116"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/person_photo21116"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="16dp"
+                    android:src="@mipmap/prajyot" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout221116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/person_photo21116"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/person_name21116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prajyot Gulhane"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/person_age21116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Information Technology" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout351116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@+id/person_photo21116"
+                    android:layout_toRightOf="@+id/person_photo21116"
+                    android:padding="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout221116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView121116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="20dp"
+                            android:clickable="true"
+                            android:src="@drawable/linked_in" />
+
+                        <ImageView
+                            android:id="@+id/imageView221116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_toRightOf="@+id/imageView121116"
+                            android:clickable="true"
+                            android:src="@drawable/gmail143" />
+
+                        <ImageView
+                            android:id="@+id/imageView321116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_toRightOf="@+id/imageView221116"
+                            android:clickable="true"
+                            android:src="@drawable/fbart" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv31116"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/person_photo31116"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/ruchi" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout231116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/person_photo31116">
+
+                    <TextView
+                        android:id="@+id/person_name31116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ruchika Patil"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/person_age31116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Information Technology" />
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/frameLayout31116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@+id/person_photo31116"
+                    android:layout_toRightOf="@+id/person_photo31116"
+                    android:padding="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout31116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView131116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="20dp"
+                            android:clickable="true"
+                            android:src="@drawable/linked_in" />
+
+                        <ImageView
+                            android:id="@+id/imageView231116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_toRightOf="@+id/imageView131116"
+                            android:clickable="true"
+                            android:src="@drawable/gmail143" />
+
+                        <ImageView
+                            android:id="@+id/imageView331116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_toRightOf="@+id/imageView231116"
+                            android:clickable="true"
+                            android:src="@drawable/fbart" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/dev141116"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="TimesNewRoman"
+            android:text="Special Thanks To:"
+            android:textColor="#546E7A"
+            android:textSize="18dp" />
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv41116"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/person_photo41116"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="16dp"
+                    android:src="@mipmap/harsh_jain" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout241116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/frameLayout41116"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/frameLayout41116"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/person_name41116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Harsh Jain"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/person_age41116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Computer Science Engineering" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout41116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@+id/person_photo41116"
+                    android:layout_toRightOf="@+id/person_photo41116"
+                    android:padding="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout41116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView141116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="20dp"
+                            android:clickable="true"
+                            android:src="@drawable/linked_in" />
+
+                        <ImageView
+                            android:id="@+id/imageView241116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_toRightOf="@+id/imageView141116"
+                            android:clickable="true"
+                            android:src="@drawable/gmail143" />
+
+                        <ImageView
+                            android:id="@+id/imageView341116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_toRightOf="@+id/imageView241116"
+                            android:clickable="true"
+                            android:src="@drawable/fbart" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/dev11116"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="TimesNewRoman"
+            android:text="Content Courtesy:"
+            android:textColor="#546E7A"
+            android:textSize="18dp" />
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv51116"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/person_photo51116"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/prakh" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout251116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/person_photo51116"
+                    android:layout_toRightOf="@+id/person_photo51116">
+
+                    <TextView
+                        android:id="@+id/person_name51116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prakhar Sharma"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/person_age51116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Information Technology" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameLayout51116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@+id/person_photo51116"
+                    android:layout_toRightOf="@+id/person_photo51116"
+                    android:padding="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout51116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView151116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/linked_in" />
+
+                        <ImageView
+                            android:id="@+id/imageView251116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_toRightOf="@+id/imageView151116"
+                            android:src="@drawable/gmail143" />
+
+                        <ImageView
+                            android:id="@+id/imageView351116"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_toRightOf="@+id/imageView251116"
+                            android:src="@drawable/fbart" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>
